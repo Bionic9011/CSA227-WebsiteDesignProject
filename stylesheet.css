@@ -1,0 +1,309 @@
+body
+{
+	margin:0;
+	background-color:black;
+}
+
+#container
+{
+	width:100%;
+	background-color:blue;
+}
+
+#top
+{
+	height:45px;
+	background-color:black;
+	color:white;
+	text-align:right;
+	font-family:verdana;
+	position:relative;
+}
+
+h4
+{
+	position:absolute;
+	right:-1160px;
+	left:0;
+	margin-left:auto;
+	margin-right:auto;
+	width:70px;
+	height:45px;
+}
+
+#topbar
+{
+	width:400px;
+	height:70px;
+	background-color:#009999;
+	position:absolute;
+	right:-900px;
+	left:0;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#maindiv
+{
+	height:1000px;
+	background: -webkit-radial-gradient(#FCEE21,#009245);
+	position:relative;
+}
+
+#content
+{
+	background-image:url(little.jpg);
+	background-size:cover;
+	width:1000px;
+	height:461px;
+	background-color:aqua;
+	margin-left:auto;
+	margin-right:auto;
+	position:absolute;
+	bottom:110px;
+	left:0;
+	right:0;
+	border:12px solid white;
+	z-index:100;
+}
+
+#nav1
+{
+	background-image:url(logo.png);
+	background-color:transparent;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	width:578px;
+	left:-520px;
+	right:0;
+	background-repeat:no-repeat;
+}
+
+#nav2
+{
+	background-image:url(boys.png);
+	width:600px;
+	height:110px;
+	background-color:transparent;
+	position:absolute;
+	bottom:760px;
+	margin-left:auto;
+	margin-right:auto;
+	left:-450px;
+	right:0;
+	z-index:500;
+}
+
+#nav4
+{
+	width:500px;
+	background-color:transparent;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+}
+
+#nav4 ul
+{
+	list-style-type:none;
+	position:relative;
+	top:80px;
+	left:450px;
+}
+
+#nav4 ul li
+{
+	display:inline-block;
+	text-align:center;
+}
+
+#nav4 ul li a
+{
+	background-color:#009999;
+	display:block;
+	margin:1px;
+	color:white;
+	border-radius:30px;
+	font-size:29px;
+	font-family:verdana;
+	font-weight:bold;
+	text-decoration:none;
+	padding-bottom:7px;
+	padding-top:7px;
+	padding-right:11px;
+	padding-left:11px;
+}
+
+#nav4 ul li a:hover
+{
+	background-color:yellow;
+	color:black;
+}
+
+#nav5
+{
+	width:500px;
+	background-color:transparent;
+	position:absolute;
+	margin-right:auto;
+	margin-left:auto;
+	left:0;
+	right:0;
+}
+
+#nav5 ul
+{
+	list-style-type:none;
+	position:relative;
+	top:150px;
+	left:430px;
+}
+
+#nav5 ul li
+{
+	display:inline-block;
+	text-align:center;
+}
+
+#nav5 ul li a
+{
+	background-color:#009999;
+	display:block;
+	margin:1px;
+	color:white;
+	border-radius:30px;
+	font-size:29px;
+	font-family:verdana;
+	font-weight:bold;
+	text-decoration:none;
+	padding-bottom:7px;
+	padding-top:7px;
+	padding-right:11px;
+	padding-left:11px;
+}
+
+#nav5 ul li a:hover
+{
+	background-color:yellow;
+	color:black;
+}
+
+#nav6
+{
+	width:500px;
+	background-color:transparent;
+	position:absolute;
+	margin-right:auto;
+	margin-left:auto;
+	left:0;
+	right:0;
+}
+
+#nav6 ul
+{
+	list-style-type:none;
+	position:relative;
+	top:220px;
+	left:450px;
+}
+
+#nav6 ul li 
+{
+	display:inline-block;
+	text-align:center;
+}
+
+#nav6 ul li a
+{
+	background-color:#009999;
+	display:block;
+	margin:1px;
+	color:white;
+	border-radius:30px;
+	font-size:27px;
+	font-family:verdana;
+	font-weight:bold;
+	text-decoration:none;
+	padding-bottom:7px;
+	padding-top:7px;
+	padding-right:11px;
+	padding-left:11px;
+}
+
+#nav6 ul li a:hover
+{
+	background-color:yellow;
+	color:black;
+}
+
+#navbar
+{
+	width:1000px;
+	background-color:transparent;
+	position:absolute;
+	height:100px;
+	bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+}
+#navbar ul
+{
+	list-style-type:none;
+	width:1000px;
+	position:relative;
+	top:-29px;
+	left:-35px;
+}
+
+#navbar ul li
+{
+	display:inline-block;
+	width:180px;
+	text-align:center;
+}
+
+#navbar ul li a
+{
+	background-color:#009999;
+	display:block;
+	width:180px;
+	height:100px;
+	margin:1px;
+	color:white;
+	border-radius:15px;
+	font-size:19px;
+	font-family:verdana;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#navbar ul li a:hover
+{
+	background-color:yellow;
+	color:black;
+}
+
+#footer
+{
+	width:100%;
+	height:260px;
+	background-color:black;
+	color:gainsboro;
+	text-align:center;
+	font-family:verdana;
+	font-size:14px;
+}
+
+#footer2
+{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
